@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+.app {
+  width: 38%;
+  max-width: 1440px;
+  background: white;
+  color: black;
+  margin: 100px auto 0;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 30px rgb(228, 227, 227);
+}
+
+.leftArea {
+  flex: 1;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); 
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rightArea {
+  flex: 1;
+}
+
+.yourResultText {
+  margin: 40px;
+  color: hsl(241, 100%, 89%);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.circle {
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)); 
+  height: 180px;
+  width: 180px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -15px;
+}
+.userMainScore{
+  color: hsl(0, 0%, 100%);
+}
+.ofLimitText{
+  color: hsl(241, 100%, 89%);
+  margin-top: -7px;
+  opacity: 0.6;
+}
+.outcomeShortText{
+  color: hsl(221, 100%, 96%);
+  margin-top: 30px;
+  margin-bottom: -30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resultDescription{
+  color: hsl(241, 100%, 89%);
+  margin: 50px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+.userMainScore{
+  font-size: 65px;
+  font-weight: 700;
+}
+.summaryText{
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+  margin: 40px;
+  margin-right: 200px;
+  margin-left: 10px;
+}
+.reactionBar{
+  background-color: hsl(0, 100%, 67%, 0.05);
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: -15px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+}
+.Img{
+  opacity: 1.0;
+  width: 20px;
+  height: 20px;
+}
+.reactionText{
+  color: hsl(0, 100%, 67%);
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+.scoreArea{
+  display: flex;
+  font-weight: 900;
+  margin-left: auto;
+}
+.reactionScore{
+  margin-right: 5px;
+  color: hsl(224, 30%, 27%);
+}
+.outOfText{
+  color: hsl(224, 30%, 27%);
+  opacity: 0.5;
+}
+.memoryBar{
+  background-color: hsl(39, 100%, 56%, 0.05);
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+}
+.memoryText{
+  color: hsl(39, 100%, 56%);
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+.memoryScore{
+  margin-right: 5px;
+  color: hsl(224, 30%, 27%);
+}
+.verbalBar{
+  background-color: hsl(166, 100%, 37%, 0.05);
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+}
+.verbalText{
+  color: hsl(166, 100%, 37%);
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+.verbalScore{
+  margin-right: 5px;
+  color: hsl(224, 30%, 27%);
+}
+.visualBar{
+  background-color: hsl(234, 85%, 45%, 0.05);
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+}
+.visualText{
+  color: hsl(234, 85%, 45%);
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+.visualScore{
+  margin-right: 5px;
+  color: hsl(224, 30%, 27%);
+}
+.continueButton{
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  height: 50px;
+  width: 285px;
+  margin: 40px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
