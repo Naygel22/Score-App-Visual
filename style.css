@@ -197,4 +197,50 @@ body {
   font-size: 16px;
 }
 
+/* Media queries dla ekranów o szerokości maksymalnie 600px */
+@media screen and (max-width: 600px) {
+  .app {
+    width: 100%; 
+    margin: 0 auto; 
+    flex-direction: column; 
+  }
+
+  .leftArea,
+  .rightArea {
+    width: 100%; 
+  }
+
+  .circle {
+    margin-top: 20px; 
+  }
+
+  .userMainScore {
+    font-size: 60px; 
+  }
+
+  .yourResultText,
+  .outcomeShortText,
+  .resultDescription {
+    font-size: 18px;
+  }
+  
+  .summaryText {
+    margin-right: 0; 
+    margin-left: 0; 
+  }
+
+  .reactionBar,
+  .memoryBar,
+  .verbalBar,
+  .visualBar {
+    margin-left: 20px; 
+    margin-right: 20px; 
+  }
+
+  .continueButton {
+    font-size: 14px; 
+    width: 80%; 
+  }
+}
+
 
